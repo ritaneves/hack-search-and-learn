@@ -1,0 +1,596 @@
+[
+    {
+        "prompt": "a shopkeeper sold an article offering a discount of 5 % and earned a profit of 31.1 % . what would have been the percentage of profit earned if no discount had been offered ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "what will be the difference between simple and compound interest at 14 % per annum on a sum of rs . 1000 after 4 years ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "there are 28 stations between hyderabad and bangalore . how many second class tickets have to be printed , so that a passenger can travel from any station to any other station ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the present population of a town is 3888 . population increase rate is 20 % p . a . find the population of town before 2 years ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the triplicate ratio of 1 : 9 is ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the sum of all the integers s such that - 26 < s < 24 is",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a full stationary oil tank that is a right circular cylinder has a radius of 100 feet and a height of 25 feet . oil is pumped from the stationary tank to an oil truck that has a tank that is a right circular cylinder until the truck ' s tank is completely filled . if the truck ' s tank has a radius of 6 feet and a height of 10 feet , how far ( in feet ) did the oil level drop in the stationary tank ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "each week a restaurant serving mexican food uses the same volume of chili paste , which comes in either 35 - ounce cans or 25 - ounce cans of chili paste . if the restaurant must order 20 more of the smaller cans than the larger cans to fulfill its weekly needs , then how manysmallercans are required to fulfill its weekly needs ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "if n is an integer and 101 n ^ 2 is less than or equal to 10000 , what is the greatest possible value of n ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a constructor estimates that 10 people can paint mr khans house in 4 days . if he uses 5 people instead of 10 , how long will they take to complete the job ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the population of a town is 8000 . it decreases annually at the rate of 20 % p . a . what will be its population after 3 years ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the percentage profit earned by selling an article for rs . 1920 is equal to the percentage loss incurred by selling the same article for rs . 1280 . at what price should the article be sold to make 40 % profit ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "running at the same constant rate , 6 identical machines can produce a total of 360 bottles per minute . at this rate , how many bottles could 10 such machines produce in 4 minutes ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "there are 1000 buildings in a street . a sign - maker is contracted to number the houses from 1 to 1000 . how many zeroes will he need ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a man bought 20 shares of rs . 50 at 5 discount , the rate of dividend being 13 . the rate of interest obtained is :",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "? % of 360 = 108",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a train 300 m long is running at a speed of 45 km / hr . in what time will it pass a bridge 150 m long ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "what is the sum of all digits for the number 10 ^ 29 - 41 ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a train running at the speed of 120 km / hr crosses a pole in 18 seconds . what is the length of the train ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a train 100 meters long completely crosses a 300 meters long bridge in 45 seconds . what is the speed of the train is ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "each month a retailer sells 100 identical items . on each item he makes a profit of $ 40 that constitutes 10 % of the item ' s price to the retailer . if the retailer contemplates giving a 5 % discount on the items he sells , what is the least number of items he will have to sell each month to justify the policy of the discount ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the average age of 15 students of a class is 14 years . out of these , the average age of 5 students is 14 years and that of the other 9 students is 16 years . tee age of the 15 th student is ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "bookman purchased 55 copies of a new book released recently , 10 of which are hardback and sold for $ 20 each , and rest are paperback and sold for $ 10 each . if 14 copies were sold and the total value of the remaining books was 460 , how many paperback copies were sold ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "diana is painting statues . she has 1 / 2 of a gallon of paint remaining . each statue requires 1 / 16 gallon of paint . how many statues can she paint ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "if the price of gasoline increases by 25 % and a driver intends to spend only 20 % more on gasoline , by how much percent should the driver reduce the quantity of gasoline that he buys ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "an art gallery has only paintings and sculptures . currently , 1 / 3 of the pieces of art are displayed , and 1 / 6 of the pieces on display are sculptures . if 1 / 3 of the pieces not on display are paintings , and 1000 sculptures are not on display , how many pieces of art does the gallery have ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "john and ingrid pay 30 % and 40 % tax annually , respectively . if john makes $ 60000 and ingrid makes $ 72000 , what is their combined tax rate ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the lenght of a room is 5.5 m and width is 4 m . find the cost of paving the floor by slabs at the rate of rs . 900 per sq . metre .",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a factory that employs 1000 assembly line workers pays each of these workers $ 5 per hour for the first 40 hours worked during a week and 1 ½ times that rate for hours worked in excess of 40 . what was the total payroll for the assembly - line workers for a week in which 30 percent of them worked 15 hours , 50 percent worked 40 hours , and the rest worked 50 hours ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a corporation double its annual bonus to 100 of its employees . what percent of the employees ’ new bonus is the increase ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a and b together do a work in 20 days . b and c together in 15 days and c and a in 12 days . then b alone can finish same work in how many days ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "two trains of equal length , running with the speeds of 60 and 16 kmph , take 50 seconds to cross each other while they are running in the same direction . what time will they take to cross each other if they are running in opposite directions ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "calculate the ratio between x and y if 30 % of x equal to 50 % of y ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "three walls have wallpaper covering a combined area of 300 square meters . by overlapping the wallpaper to cover a wall with an area of 180 square meters , the area that is covered by exactly two layers of wallpaper is 34 square meters . what is the area that is covered with three layers of wallpaper ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a meeting has to be conducted with 6 managers . find the number of ways in which the managers may be selected from among 9 managers , if there are 2 managers who refuse to attend the meeting together .",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a trader bought a car at 20 % discount on its original price . he sold it at a 40 % increase on the price he bought it . what percent of profit did he make on the original price ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "what is the unit digit in the product ( 3 ^ 65 x 6 ^ 59 x 7 ^ 71 ) ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a start walking from a place at a uniform speed of 6 kmph in a particular direction . after half an hour , b starts from the same place and walks in the same direction as a at a uniform speed and overtakes a after 1 hour 48 minutes . find the speed of b .",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "oak street begins at pine street and runs directly east for 2 kilometers until it ends when it meets maple street . oak street is intersected every 400 meters by a perpendicular street , and each of those streets other than pine street and maple street is given a number beginning at 1 st street ( one block east of pine street ) and continuing consecutively ( 2 nd street , 3 rd street , etc . . . ) until the highest - numbered street one block west of maple street . what is the highest - numbered street that intersects oak street ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "50 percent of the members of a study group are women , and 30 percent of those women are lawyers . if one member of the study group is to be selected at random , what is the probability that the member selected is a woman lawyer ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the cross - section of a cannel is a trapezium in shape . if the cannel is 14 m wide at the top and 8 m wide at the bottom and the area of cross - section is 550 sq m , the depth of cannel is ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "kim finds a 4 - meter tree branch and marks it off in thirds and fifths . she then breaks the branch along all the markings and removes one piece of every distinct length . what fraction of the original branch remains ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "$ 350 is divided among a , b , and c so that a receives half as much as b , and b receives half as much as c . how much money is c ' s share ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "in an it company , there are a total of 90 employees including 50 programmers . the number of male employees is 80 , including 35 male programmers . how many employees must be selected to guaranty that we have 3 programmers of the same sex ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the cost of one photocopy is $ 0.02 . however , a 25 % discount is offered on orders of more than 100 photocopies . if arthur and david have to make 80 copies each , how much will each of them save if they submit a single order of 160 copies ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "( 3 x + 1 ) ( 2 x - 5 ) = ax ^ 2 + kx + n . what is the value of a - n + k ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "if 6 men and 8 women can do a piece of work in 10 days while 26 men and 48 women can do the same in 2 days , the time taken by 15 men and 20 women in doing the same type of work will be ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the maximum number of students among them 1345 pens and 775 pencils can be distributed in such a way that each student gets the same number of pens and same number of pencils is :",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a sum of rs . 1360 has been divided among a , b and c such that a gets 2 / 3 of what b gets and b gets 1 / 4 of what c gets . b ' s share is :",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "how many cuboids of length 5 m , width 3 m and height 2 m can be farmed from a cuboid of 18 m length , 15 m width and 2 m height .",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "two - third of a positive number and 16 / 216 of its reciprocal are equal . find the positive number .",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "find large number from below question the difference of two numbers is 1365 . on dividing the larger number by the smaller , we get 6 as quotient and the 15 as remainder",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the average of first three prime numbers greater than 5 is ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "in a recent election , james received 0.5 percent of the 2,000 votes cast . to win the election , a candidate needed to receive more than 50 percent of the vote . how many additional votes would james have needed to win the election ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "if 12 : 8 : : x : 16 , then find the value of x",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "what least number must be subtracted from 3832 so that the remaining number is divisible by 5 ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "find the length of the wire required to go 14 times round a square field containing 5625 m 2 .",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "how many bricks , each measuring 25 cm x 11.25 cm x 6 cm , will be needed to build a wall of 1 m x 2 m x 20 cm ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "spanish language broadcast records last 90 min on each of two sides . if it takes 3 hours to translate one hour of broadcast , how long will it take to translate 16 full records ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a began business with rs . 45000 and was joined afterwards by b with rs . 5400 . when did b join if the profits at the end of the year were divided in the ratio of 2 : 1 ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a can do a piece of work in 4 hours ; b and c together can do it in 3 hours , which a and c together can do it in 2 hours . how long will b alone take to do it ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "how many seconds will a 650 meter long train moving with a speed of 63 km / hr take to cross a man walking with a speed of 3 km / hr in the direction of the train ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "today is thursday . i came home from a trip 3 days before the day after last monday . how many days have i been home ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "an article is bought for rs . 675 and sold for rs . 1100 , find the gain percent ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "in one hour , a boat goes 19 km along the stream and 5 km against the stream . the speed of the boat in still water ( in km / hr ) is :",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a salesperson received a commission of 3 percent of the sale price for each of the first 100 machines that she sold and 4 percent of the sale price for each machine that she sold after the first 100 . if the sale price of each machine was $ 10,000 and the salesperson received a $ 45,000 commission , how many machines did she sell ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "solve the equation for x : 6 x - 27 + 3 x = 4 + 9 - x",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a profit of rs . 900 is divided between x and y in the ratio of 1 / 2 : 1 / 3 . what is the difference between their profit shares ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a is two years older than b who is twice as old as c . if the total of the ages of a , b and c be 27 , the how old is b ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "calculate the share of y , if rs . 2880 is divided among x , y and z in the ratio 3 : 5 : 8 ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "3 years ago , paula was 3 times as old as karl . in 9 years , paula will be twice as old as karl . what is the sum of their ages now ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a train running at the speed of 50 km / hr crosses a post in 4 seconds . what is the length of the train ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "if soundharya rows 49 km upstream and 77 km down steam taking 7 hours each , then the speed of the stream",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the digital sum of a number is the sum of its digits . for how many of the positive integers 24 - 140 inclusive is the digital sum a multiple of 7 ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the ratio of 2 numbers is 2 : 5 and their h . c . f . is 6 . their l . c . m . is ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "20 beavers , working together in a constant pace , can build a dam in 6 hours . how many hours will it take 12 beavers that work at the same pace , to build the same dam ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "if a student loses 6 kilograms , he will weigh twice as much as his sister . together they now weigh 126 kilograms . what is the student ' s present weight in kilograms ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a person buys an article at rs . 575 . at what price should he sell the article so as to make a profit of 15 % ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "two consultants can type up a report in 12.5 hours and edit it in 7.5 hours . if mary needs 30 hours to type the report and jim needs 12 hours to edit it alone , how many t hours will it take if jim types the report and mary edits it immediately after he is done ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "an amount of rs . 1638 was divided among a , b and c , in the ratio 1 / 2 : 1 / 3 : 1 / 4 . find the share of a ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "what least value should be replaced by * in 2551112 * so the number become divisible by 6",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "what number is obtained by adding the units digits of 734 ^ 100 and 347 ^ 83 ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "in two triangles , the ratio of the areas is 4 : 3 and the ratio of their heights is 3 : 4 . find the ratio of their bases .",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a trader sells 40 metres of cloth for rs . 8200 at a profit of rs . 15 per metre of cloth . how much profit will the trder earn on 40 metres of cloth ?",
+        "ideal_response": "c",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "what is the probability of drawing a queen from a deck of 52 cards ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a thief goes away with a santro car at a speed of 50 kmph . the theft has been discovered after half an hour and the owner sets off in a bike at 60 kmph when will the owner over take the thief from the start ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the average weight of 18 boys in a class is 50.25 kg and that of the remaining 8 boys is 45.15 kg . find the average weights of all the boys in the class .",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "how many words , with or without meaning , can be formed using all letters of the word good using each letter exactly once ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "in right triangle abc , ac is the hypotenuse . if ac is 40 and ab + bc = 60 , what is the area of the triangle abc ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the ratio of the area of a square to that of the square drawn on its diagonal is",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a 4 digit number divisible by 7 becomes divisible by 3 when 19 is added to it . the largest such number is :",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "what is the probability for a family with 3 children to have a girl and two boys ( assuming the probability of having a boy or a girl is equal ) ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a manufacturer produces a certain men ' s athletic shoe in integer sizes from 8 to 17 . for this particular shoe , each unit increase in size corresponds to a 1 / 5 - inch increase in the length of the shoe . if the largest size of this shoe is 30 % longer than the smallest size , how long , in inches , is the shoe in size 15 ?",
+        "ideal_response": "b",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "if x + | x | + y = 7 and x + | y | - y = 5 what is x + y = ?",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a 240 m long train running at the speed of 120 km / hr crosses another train running in opposite direction at the speed of 80 km / hr in 9 sec . what is the length of the other train ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "34 . the side surface of a cylinder is rolled with a rectangular plate . if the perimeter of the circular base is 9 feet , and the diagonal of the rectangular plate was 15 ft . what is height of the of the cylinder ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "what quantity of water should be added to reduce 9 liters of 50 % acidic liquid to 30 % acidic liquid ?",
+        "ideal_response": "a",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "a man gains 20 % by selling an article for a certain price . if the sells it at double the price , the percentage of profit will be :",
+        "ideal_response": "d",
+        "category": "allenai/math_qa",
+        "source": ""
+    },
+    {
+        "prompt": "the average weight of 20 persons sitting in a boat had some value . a new person added to them whose weight was 46 kg only . due to his arrival , the average weight of all the persons decreased by 5 kg . find the average weight of first 20 persons ?",
+        "ideal_response": "e",
+        "category": "allenai/math_qa",
+        "source": ""
+    }
+]

@@ -3,13 +3,29 @@ import yaml
 from datasets import load_dataset
 from copy import deepcopy
 import sys
+import re
 
 
-with open("precomputed_outputs_math_qa.json", "r") as f:
-    precomputed_outputs = json.load(f)
+def match(x, choices):
+
+    convert = ["a", "b", "c", "d", "e"]
+
+    choices = choices.split(",")
+    choices = [x.split(") ")[-1].strip() for x in choices]
+
+    match = re.search(r"\\boxed{([^}]*)}", x)
+    if match:
+        answer = match.group(1)
+        try: 
+            idx = choices.index(answer)
+            return convert[idx]
+        except:
+            return "x"
+    else:
+        return "x"
 
 
-def preparing_output_dataset(all_entries, responses, llm_name="llama", dataset_name="allenai/math_qa", split="test"):
+def preparing_output_dataset(all_entries, all_options, responses, dataset_name="allenai/math_qa", split="test", llm_name="llama"):
     """
     {
         "input": {
@@ -24,15 +40,19 @@ def preparing_output_dataset(all_entries, responses, llm_name="llama", dataset_n
     """
 
     all_outputs = []
-    for entry in all_entries:
+    for i, entry in enumerate(all_entries):
         if entry["prompt"] in responses.keys():
-            all_outputs.append({"input": entry, "response": responses[entry["prompt"]], "llm_name": llm_name})
+            answer = match(responses[entry["prompt"]], all_options[i]) 
+        
+            all_outputs.append({"input": entry, "response": answer, "llm_name": llm_name})
 
     with open(f"outputs.json", "w", encoding='utf8') as f:
         json.dump(all_outputs, f, ensure_ascii=False)
 
+    return
 
-def preparing_input_dataset(dataset_name="allenai/math_qa", split="test"):
+
+def preparing_input_dataset(dataset_name="allenai/math_qa", split="test", limit=100):
     """
     {
         "prompt":"prompt 1",
@@ -45,28 +65,25 @@ def preparing_input_dataset(dataset_name="allenai/math_qa", split="test"):
     dataset = load_dataset(dataset_name, trust_remote_code=True)[split]
     
     all_entries = []
+    all_options = []
 
     i = 0
     for example in dataset:
         # Add to prompt and figure out unicode chars
         entry = {
-            
-                "prompt": example["Problem"] + "\n Options: " + example["options"].replace(" )", ".").replace(" ,", ","),
+                "prompt": example["Problem"], # + "\n Options: " + example["options"].replace(" )", ".").replace(" ,", ","),
                 "ideal_response": example["correct"],
                 "category": dataset_name,
                 "source": ""
                 }
         i += 1
-        if i > 99:
+        if i > limit:
             break
 
         all_entries.append(entry)
+        all_options.append(example["options"])
 
+    # with open(f"inputs.json", "w", encoding='utf8') as f:
+    #     json.dump(all_entries, f, ensure_ascii=False)
 
-    with open(f"inputs.json", "w", encoding='utf8') as f:
-        json.dump(all_entries, f, ensure_ascii=False)
-
-    return 
-
-all_entries = preparing_input_dataset()
-# preparing_output_dataset(all_entries, precomputed_outputs)
+    return all_entries, all_options
