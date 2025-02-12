@@ -25,14 +25,15 @@ def match(x, choices):
         return "x"
 
 
-def preparing_output_dataset(all_entries, all_options, responses, dataset_name="allenai/math_qa", split="test", llm_name="llama"):
+def preparing_output_dataset(all_entries, all_options, responses, dataset_name="allenai/math_qa", split="test", llm_name="llama", method="best_of_n"):
     """
     {
         "input": {
             "prompt": "prompt 1", 
             "ideal_response": "response 1",
             "category": "",
-            "source": ""
+            "source": "",
+            "method": search method
         },
         "response": "generated response 1",
         "llm_name": "llm name"
@@ -46,7 +47,7 @@ def preparing_output_dataset(all_entries, all_options, responses, dataset_name="
         
             all_outputs.append({"input": entry, "response": answer, "llm_name": llm_name})
 
-    with open(f"outputs.json", "w", encoding='utf8') as f:
+    with open(f"{method}_outputs.json", "w", encoding='utf8') as f:
         json.dump(all_outputs, f, ensure_ascii=False)
 
     return
@@ -83,7 +84,7 @@ def preparing_input_dataset(dataset_name="allenai/math_qa", split="test", limit=
         all_entries.append(entry)
         all_options.append(example["options"])
 
-    # with open(f"inputs.json", "w", encoding='utf8') as f:
-    #     json.dump(all_entries, f, ensure_ascii=False)
+    with open(f"inputs.json", "w", encoding='utf8') as f:
+        json.dump(all_entries, f, ensure_ascii=False)
 
     return all_entries, all_options
