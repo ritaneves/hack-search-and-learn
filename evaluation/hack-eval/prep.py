@@ -6,7 +6,7 @@ import sys
 import re
 
 
-def match(x, choices):
+def match_qa(x, choices):
 
     convert = ["a", "b", "c", "d", "e"]
 
@@ -43,7 +43,7 @@ def preparing_output_dataset(all_entries, all_options, responses, dataset_name="
     all_outputs = []
     for i, entry in enumerate(all_entries):
         if entry["prompt"] in responses.keys():
-            answer = match(responses[entry["prompt"]], all_options[i]) 
+            answer = match_qa(responses[entry["prompt"]], all_options[i]) 
         
             all_outputs.append({"input": entry, "response": answer, "llm_name": llm_name})
 
@@ -83,8 +83,5 @@ def preparing_input_dataset(dataset_name="allenai/math_qa", split="test", limit=
 
         all_entries.append(entry)
         all_options.append(example["options"])
-
-    with open(f"inputs.json", "w", encoding='utf8') as f:
-        json.dump(all_entries, f, ensure_ascii=False)
 
     return all_entries, all_options
